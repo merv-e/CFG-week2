@@ -75,7 +75,7 @@ for number in range(5):  # 0,1,2,3,4
     print("executing FOR LOOP - run No {}".format(number + 1))
 '''
 
-''''''
+'''
 total = 0
 print("*** This statement is OUTSIDE THE LOOP")
 print("Before the loop executes, our TOTAL is equal to = ", total, '\n')
@@ -90,4 +90,36 @@ print("--------------------------------------------------------")
 print("***This statement We is OUTSIDE the loop now")
 '''
 
+
 # While Loop
+
+''' 
+
+# Example INFINITE 'while loop' that runs forever until the memory is 'blown'
+store_capacity = 10
+while store_capacity > 0:
+    print('Please come in. Spaces available: ' + str(store_capacity))
+    
+# store_capacity = store_capacity - 1 ---> imagine that we forgot to add this logic!!!
+
+print("\nPlease wait for someone to exit the store.")
+
+'''
+
+
+# FUNCTIONS
+
+'''
+# this is a function 
+def hello():
+    print("Hello, class!")
+
+# and now we are calling it!
+# hello()
+'''
+
+def hello(name):
+print('Hello,', name)
+hello('Maria')
+hello('Kim')
+hello('Olya')
